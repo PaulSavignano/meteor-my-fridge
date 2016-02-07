@@ -1,0 +1,10 @@
+<template name="fridge">
+  <div id="fridge">
+    <img src="/empty-fridge.jpg" class="image-responsive">
+    <ul>
+      {{#each products}}
+        <li>{{> productListItem}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</template>
